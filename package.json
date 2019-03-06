@@ -1,18 +1,18 @@
 {
-  "name": "graphlib-dot",
-  "version": "0.6.2",
-  "description": "A DOT language parser / writer for graphlib",
-  "author": "Chris Pettitt <cpettitt@gmail.com>",
-  "main": "index.js",
-  "keywords": [
-    "graph",
-    "dot",
-    "parse"
-  ],
+  "author": {
+    "name": "Gregory Guterman",
+    "email": "gregoryguterman@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/hashcacher/graphlib-dot/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
-    "graphlib": "^1.0.1",
+    "graphlib": "^2.1.1",
     "lodash": "^2.4.1"
   },
+  "deprecated": false,
+  "description": "A DOT language parser / writer for graphlib",
   "devDependencies": {
     "browserify": "^6.1.0",
     "chai": "^1.9.2",
@@ -32,12 +32,18 @@
     "sprintf": "^0.1.4",
     "uglify-js": "^2.4.15"
   },
+  "homepage": "https://github.com/hashcacher/graphlib-dot#readme",
+  "keywords": [
+    "graph",
+    "dot",
+    "parse"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "graphlib-dot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cpettitt/graphlib-dot.git"
+    "url": "git+https://github.com/hashcacher/graphlib-dot.git"
   },
-  "contributors": [
-    "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)"
-  ],
-  "license": "MIT"
+  "version": "0.6.2"
 }
